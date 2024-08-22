@@ -8,6 +8,7 @@ Original file is located at
 """
 
 import polygon_class
+from polygon_class import Convex_Polygon
 
 class custom_Polygon_sequence:
     def __init__(self, max_sides, circumradius):
