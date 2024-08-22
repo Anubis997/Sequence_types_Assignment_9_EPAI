@@ -30,5 +30,5 @@ class custom_Polygon_sequence:
         return sorted_polygons[0], sorted_polygons[0].area() / sorted_polygons[0].perimeter()
 
 
-#print("Maximum Efficiency Polygon till n=25 is:",custom_Polygon_sequence.max_efficiency_polygon(custom_Polygon_sequence(25, 2)))
+print("Maximum Efficiency Polygon till n=25 is:",custom_Polygon_sequence.max_efficiency_polygon(custom_Polygon_sequence(25, 2)))
 
